@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/listview_row_height"
+    android:layout_marginLeft="@dimen/listview_horizontal_margin"
+    android:layout_marginRight="@dimen/listview_horizontal_margin"
+    android:orientation="horizontal">
+
+    <!--Avatar-->
+    <LinearLayout
+        android:id="@+id/groupRow_avatar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/listview_horizontal_padding"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <!--Avatar Image-->
+        <ImageView
+            android:id="@+id/groupRow_list_image"
+            android:layout_width="@dimen/listview_avatar_image_size"
+            android:layout_height="@dimen/listview_avatar_image_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/listview_horizontal_padding"
+            android:src="@drawable/anon_user_48dp" />
+    </LinearLayout>
+
+    <!--Group Title-->
+    <TextView
+        android:id="@+id/groupRow_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/groupRow_avatar_container"
+        android:layout_alignTop="@id/groupRow_avatar_container"
+        android:text="@string/group_row_default_group_title"
+        android:textSize="@dimen/listview_group_title_size"
+        android:textColor="@color/listview_group_primary_color"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal" />
+
+    <!--Subtitle-->
+    <TextView
+        android:id="@+id/groupRow_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/groupRow_title"
+        android:layout_marginTop="@dimen/listview_title_subtitle_gap_size"
+        android:layout_toRightOf="@id/groupRow_avatar_container"
+        android:fontFamily="sans-serif"
+        android:text="@string/group_row_default_group_subtitle"
+        android:textColor="@color/listview_group_secondary_color"
+        android:textSize="@dimen/listview_group_subtitle_size"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@+id/groupRow_invite_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/listview_horizontal_padding"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/groupRow_invite_accept"
+            android:layout_width="@dimen/groupRow_invite_action_image_size"
+            android:layout_height="@dimen/groupRow_invite_action_image_size"
+            android:clickable="true"
+            android:src="@drawable/ic_check_black_24dp" />
+
+        <ImageView
+            android:id="@+id/groupRow_invite_decline"
+            android:layout_width="@dimen/groupRow_invite_action_image_size"
+            android:layout_height="@dimen/groupRow_invite_action_image_size"
+            android:layout_marginLeft="@dimen/listview_horizontal_margin"
+            android:clickable="true"
+            android:src="@drawable/ic_close_black_24dp" />
+    </LinearLayout>
+
+</RelativeLayout>

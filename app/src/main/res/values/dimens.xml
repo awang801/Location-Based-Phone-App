@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!--ListView Dimensions-->
+        <!--Row Item Layout Dimensions-->
+        <dimen name="listview_row_height">75dp</dimen>
+        <dimen name="listview_horizontal_margin">8dp</dimen>
+
+        <dimen name="listview_avatar_image_size">45dp</dimen>
+        <dimen name="listview_horizontal_padding">15dp</dimen>
+
+        <!--Row Item Text Sizes-->
+        <dimen name="listview_group_title_size">20sp</dimen>
+        <dimen name="listview_group_subtitle_size">14sp</dimen>
+        <dimen name="feedRow_time_received_size">12sp</dimen>
+        <dimen name="listview_title_subtitle_gap_size">4dp</dimen>
+        <dimen name="groupRow_header_size">22sp</dimen>
+        <dimen name="groupRow_invite_action_image_size">40dp</dimen>
+
+        <!--List  Dimensions-->
+        <dimen name="feed_divider_size">1dp</dimen>s
+</resources>

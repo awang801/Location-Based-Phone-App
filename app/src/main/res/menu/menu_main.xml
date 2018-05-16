@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.team5.samplelocation.main.MainActivity">
+    <item android:id="@+id/action_search"
+        android:title="Search stuff"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="collapseActionView|always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="101"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_testPage"
+        android:orderInCategory="102"
+        android:title="Test Page"
+        app:showAsAction="never" />
+</menu>

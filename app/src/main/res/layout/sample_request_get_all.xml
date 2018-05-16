@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/overall_layout"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Make GetAll Request to Server"
+                android:id="@+id/button_http_request"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15px"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Radius of Check-in"
+                android:ems="10"
+                android:id="@+id/edittext_radius"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map Members Within Range"
+                android:id="@+id/button_map"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15px"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Make GetAll Request to Find and Map Members Eligible for Check-In"
+                android:id="@+id/textview_http_request_response"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30px"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

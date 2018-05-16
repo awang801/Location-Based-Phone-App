@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/listview_row_height"
+    android:layout_marginLeft="@dimen/listview_horizontal_margin"
+    android:layout_marginRight="@dimen/listview_horizontal_margin"
+    android:orientation="horizontal">
+
+    <!--Avatar-->
+    <LinearLayout
+        android:id="@+id/feedRow_event_avatar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/listview_horizontal_padding"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <!--Avatar Image-->
+        <ImageView
+            android:id="@+id/feedRow_event_list_image"
+            android:layout_width="@dimen/listview_avatar_image_size"
+            android:layout_height="@dimen/listview_avatar_image_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/listview_horizontal_padding"
+            android:src="@drawable/anon_user_48dp" />
+    </LinearLayout>
+
+    <!--Group Title-->
+    <TextView
+        android:id="@+id/feedRow_event_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/feedRow_event_avatar_container"
+        android:layout_alignTop="@id/feedRow_event_avatar_container"
+        android:text="@string/feed_row_default_group_title"
+        android:textSize="@dimen/listview_group_title_size"
+        android:textColor="@color/listview_group_primary_color"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal" />
+
+    <!--Subtitle-->
+    <TextView
+        android:id="@+id/feedRow_event_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedRow_event_title"
+        android:layout_toRightOf="@id/feedRow_event_avatar_container"
+        android:fontFamily="sans-serif"
+        android:text="@string/feed_row_default_group_subtitle"
+        android:textColor="@color/listview_group_secondary_color"
+        android:textSize="@dimen/listview_group_subtitle_size"
+        android:textStyle="normal" />
+
+
+    <!--Response Switch-->
+    <Switch
+        android:id="@+id/feedRow_event_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/feedRow_event_time_received"
+        android:layout_toStartOf="@+id/feedRow_event_time_received"
+        android:layout_marginEnd="15dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textOn=""
+        android:textOff=""/>
+
+    <!--Time Received-->
+    <TextView
+        android:id="@+id/feedRow_event_time_received"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/listview_horizontal_padding"
+        android:gravity="right"
+        android:text="@string/feed_row_default_time_received"
+        android:textSize="@dimen/feedRow_time_received_size"
+        android:textColor="@color/listview_group_secondary_color"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal" />
+</RelativeLayout>

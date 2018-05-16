@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/overall_layout"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Firebase InstanceID"
+                android:id="@+id/button_firebaseMainActivity"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25px"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Firebase Auth"
+                android:id="@+id/button_firebaseAuth"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25px"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Sign In"
+                android:id="@+id/button_signInTest"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25px"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tabbed Page"
+                android:id="@+id/button_mainActivity"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25px"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location Abstract Test"
+                android:id="@+id/button_locationAbstract"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25px"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Static Light Map"
+                android:id="@+id/button_testStaticLite"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25px"/>
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Confirm Signin For GabeGroup"
+                  android:id="@+id/button_confirmGabeGroup"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="25px"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

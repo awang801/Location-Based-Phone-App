@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/overall_layout"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Current Location"
+                android:id="@+id/current_location"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15px"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store Cur Location in DB"
+                android:id="@+id/store_current"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cur Latitude:"
+                android:id="@+id/lat_display"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cur Longitude:"
+                android:id="@+id/long_display"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Display Location"
+                android:id="@+id/display_location"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Recent DB Coords"
+                android:id="@+id/get_db_location"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DB Latitude:"
+                android:id="@+id/db_lat_display"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DB Longitude:"
+                android:id="@+id/db_long_display"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Display DB Coordinates"
+                android:id="@+id/display_db_location"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compare DB to Current"
+                android:id="@+id/comp_location"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45px"
+                android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prox Check"
+                android:id="@+id/comp_proximity"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5px"
+                android:visibility="invisible"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map Cluster Example"
+                android:id="@+id/map_cluster_example"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45px"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

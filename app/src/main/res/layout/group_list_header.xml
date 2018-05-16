@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/groupRow_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/listview_horizontal_padding"
+        android:layout_marginTop="@dimen/appbar_padding_top"
+        android:text="@string/group_row_default_header_text"
+        android:textColor="@color/authui_colorPrimary"
+        android:textSize="18sp"
+        tools:focusable="false" />
+
+</LinearLayout>

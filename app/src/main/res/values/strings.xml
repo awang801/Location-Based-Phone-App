@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">SampleLocation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_display">Current Location</string>
+    <string name="title_activity_cluster_map">ClusterMap</string>
+    <string name="title_activity_checkin_map">CheckinMap</string>
+    <string name="title_activity_mainmenu">Main Menu</string>
+    <string name="title_activity_httprequestmenu">HttpRequestMenu</string>
+    <string name="title_activity_httprequestgetall">HttpRequestGetAll</string>
+    <string name="title_activity_httprequestpost">HttpRequestPost</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Strings for rendering Feed Rows-->
+    <string name="feed_row_default_group_title">Group Title</string>
+    <string name="feed_row_default_group_subtitle">Group Subtitle</string>
+    <string name="feed_row_default_message">Tap to view</string>
+    <string name="feed_row_default_time_received">99:99 AM</string>
+    <string name="feed_row_default_subtitle_message">Click to view</string>
+
+    <!--Strings for interacting with Feed Rows-->
+    <string name="alert_dialog_checkin_confirm_RESPOND">Respond</string>
+    <string name="alert_dialog_checkin_confirm_UNRESPOND">Unrespond</string>
+    <string name="alert_dialog_checkin_confirm_DELETE">Delete</string>
+    <string name="alert_dialog_checkin_confirm_CANCEL">Cancel</string>
+    <string name="feed_row_event_confirmation_message">Are you sure you want to respond to this event?</string>
+    <string name="feed_row_event_unconfirmation_message">Are you sure you want to unrespond to this event?</string>
+    <string name="feed_row_message_delete_confirmation">Are you sure you want to delete this message?</string>
+    <string name="feed_row_event_LocFailed_message">You have an event but location services failed!\nTry: Refreshing Feed, Logging Out, or Enabling Location Services.\nResponding won\'t guarantee check-in</string>
+
+    <!--Strings for rendering Group Rows-->
+    <string name="group_row_default_group_title">Group Title</string>
+    <string name="group_row_default_group_subtitle">Group Subtitle</string>
+    <string name="group_row_default_header_text">Default Header</string>
+    <string name="group_row_header_text_invites">Invites</string>
+    <string name="group_row_header_text_admin">Admin</string>
+    <string name="group_row_header_text_member">Member</string>
+    <string name="group_row_invite_confirmation_accept_message">Are you sure you want to join this group?</string>
+    <string name="group_row_invite_confirmation_decline_message">Are you sure you want to decline the invite to join this group?</string>
+    <string name="alert_dialog_invite_confirm_JOIN">Join</string>
+    <string name="alert_dialog_invite_confirm_DECLINE">Decline</string>
+    <string name="alert_dialog_invite_confirm_CANCEL">Cancel</string>
+
+    <!-- Strings For Navigation Drawer On The Interactive Maps Page -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- For Firebase Sign-in -->
+    <string name="name_chat">ChatActivity</string>
+    <string name="name_auth_ui">Auth UI demo</string>
+    <string name="name_image">Storage Image Demo</string>
+
+    <string name="desc_chat">Demonstrates using a FirebaseRecyclerAdapter to load data from Firebase Database into a RecyclerView for a basic chat app.</string>
+    <string name="desc_auth_ui">Demonstrates the Firebase Auth UI flow, with customization options.</string>
+    <string name="desc_image">Demonstrates displaying an image from Firebase Storage using Glide.</string>
+
+    <!-- strings for Auth UI demo activities -->
+    <eat-comment />
+    <string name="launch_title">FirebaseUI Auth Demo</string>
+    <string name="sign_in">Start</string>
+    <string name="green_theme">Green Theme</string>
+    <string name="purple_theme">Purple Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="use_theme_header">Use theme:</string>
+    <string name="logo_header">Logo:</string>
+    <string name="firebase_logo_label">Firebase Auth</string>
+    <string name="google_logo_label">Google</string>
+    <string name="no_logo_label">None</string>
+    <string name="auth_providers_header">Use auth providers:</string>
+    <string name="email_label">Email</string>
+    <string name="facebook_label">Facebook</string>
+    <string name="facebook_label_missing_config">Facebook - configuration missing</string>
+    <string name="twitter_label">Twitter</string>
+    <string name="twitter_label_missing_config">Twitter - configuration missing</string>
+    <string name="google_label">Google</string>
+    <string name="google_label_missing_config">Google - configuration missing</string>
+    <string name="google_tos_label">Google TOS</string>
+    <string name="firebase_tos_label">Firebase TOS</string>
+    <string name="tos_header">Terms of Service URL:</string>
+    <string name="unknown_response">Unexpected onActivityResult response code</string>
+    <string name="unknown_sign_in_response">Unknown response from AuthUI sign-in</string>
+    <string name="sign_in_cancelled">Sign in cancelled</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="signed_in_header">You are signed in!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_account_label">Delete account</string>
+    <string name="sign_out_failed">Sign out failed</string>
+    <string name="delete_account_failed">Delete account failed</string>
+    <string name="user_profile_header">User profile:</string>
+    <string name="profile_picture_content_desc">Profile picture</string>
+    <string name="default_theme">Default theme</string>
+    <string name="configuration_required">Configuration is required - see README.md</string>
+    <string name="other_options_header">Other Options:</string>
+    <string name="enable_smartlock">Enable SmartLock for Passwords</string>
+    <string name="rational_image_perm">This sample will read an image from local storage to upload to Firebase Storage.</string>
+    <string name="anonymous_auth_failed_toast">Authentication failed, uploads and downloads will not work.</string>
+    <string name="anonymous_auth_failed_msg">Anonymous authentication failed. Make sure your device is online and that Anonymous Auth is configured in your Firebase project(https://console.firebase.google.com/project/_/authentication/providers)</string>
+    <string name="extra_google_scopes">Example extra Google scopes</string>
+    <string name="games">Games</string>
+    <string name="extra_facebook_scopes">Example extra Facebook scopes</string>
+    <string name="friends">Friends</string>
+    <string name="photos">Photos</string>
+    <string name="idp_token">IDP Token</string>
+    <string name="idp_secret">IDP Secret</string>
+    <string name="unknown_error">An unknown error occurred</string>
+    <string name="send">Send</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="accessibility_downloaded_image">Downloaded image</string>
+    <string name="drive_file">Drive File</string>
+
+    <!-- strings for Auth UI demo activities -->
+    <string name="start_chatting">No messages. Start chatting at the bottom!</string>
+    <string name="title_activity_login">Sign In</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_temp">temp</string>
+    <string name="title_activity_mapsStaticLite">MapsStaticLite</string>
+    <string name="title_activity_mapsStaticDemonstration">MapsStaticDemonstation</string>
+</resources>
